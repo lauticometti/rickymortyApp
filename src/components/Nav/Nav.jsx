@@ -21,9 +21,9 @@ export default function Nav({onSearch, setCharacters, logout}) {
         <li>
           <NavLink to='/home' className={styles.listLink}>Home</NavLink>
         </li>
-        <li>
+       {/*  <li>
           <NavLink to='/favorites' className={styles.listLink}>Favorites</NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink to='/about' className={styles.listLink}>About</NavLink>
         </li>

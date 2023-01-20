@@ -6,8 +6,7 @@ import Nav from './components/Nav/Nav.jsx'
 import About from './components/About/About.jsx'
 import Detail from './components/Detail/Detail.jsx'
 import Form from './components/Form/Form'
-import Favorites from './components/Favorites/Favorites'
-
+/* import Favorites from './components/Favorites/Favorites'  */
 function App () {
  
   const [characters, setCharacters] = useState([])
@@ -57,7 +56,7 @@ function App () {
         <Route path='/home' element = { <Cards setCharacters={setCharacters} characters={characters} /> } />
         <Route path='/about' element = { <About /> } />
         <Route path='/detail/:detailId' element = { <Detail /> } />
-        <Route path='/favorites' element = { <Favorites /> } />    
+{/*         <Route path='/favorites' element = { <Favorites /> } /> */}
       </Routes>
     </div>
   )
