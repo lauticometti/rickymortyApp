@@ -1,0 +1,42 @@
+.container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0;
+  padding: 0 20px;
+  height: 75px;
+
+  background-color: rgba(255, 255, 255);
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  width: 35%;
+  list-style-type: none;
+}
+
+.listLink {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.listLink:visited {
+  color: #57d2f0;
+}
+
+.listLink:hover {
+  color: rgb(68, 68, 68);
+}
+
+.searchContainer {
+  display: flex;
+}
